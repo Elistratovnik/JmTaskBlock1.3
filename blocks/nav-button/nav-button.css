@@ -1,0 +1,7 @@
+@import './__icon.css';
+
+.nav-button {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
