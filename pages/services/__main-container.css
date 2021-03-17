@@ -1,0 +1,15 @@
+.services__main-container {
+  padding: 24px 0;
+}
+
+@media (min-width: 768px) {
+  .services__main-container {
+    padding: 24px 0;
+  }
+}
+
+@media (min-width: 1120px) {
+  .services__main-container {
+    padding: 43px 0;
+  }
+}

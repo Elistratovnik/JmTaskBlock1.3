@@ -1,0 +1,16 @@
+.services__title {
+  margin-bottom: 22px;
+}
+
+@media (min-width: 768px) {
+  .services__title {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1120px) {
+  .services__title {
+    margin-bottom: 7px;
+  }
+}
+

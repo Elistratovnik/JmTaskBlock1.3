@@ -1,0 +1,18 @@
+@import './__item--active.css';
+
+.slider__item {
+  font-family: 'TT Lakes';
+  font-weight: 500;
+  margin-right: 4px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #7E7E82;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+.slider__item:hover {
+  box-shadow: inset 0 0 0 2px lightblue;
+  border-radius: 6px;
+}

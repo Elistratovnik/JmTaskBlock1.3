@@ -1,0 +1,23 @@
+@import './__nav.css';
+@import './__item.css';
+
+.slider {
+  position: relative;
+}
+
+.slider::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 100%;
+  background-image: linear-gradient(to left,#F8F8F8, transparent);
+}
+
+
+@media (min-width: 768px) {
+  .slider::after {
+    display: none;
+  }
+}

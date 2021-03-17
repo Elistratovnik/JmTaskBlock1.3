@@ -1,8 +1,0 @@
-@import './blocks/header/header.css';
-@import './blocks/icons-list/icons-list.css';
-@import './blocks/nav-button/nav-button.css';
-@import './blocks/logo/logo.css';
-
-* {
-  box-sizing: border-box;
-}

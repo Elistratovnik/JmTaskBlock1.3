@@ -1,0 +1,16 @@
+.lead__info {
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .lead__info {
+    margin-right: 48px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1120px) {
+  .lead__info {
+    margin-right: 36px;
+  }
+}

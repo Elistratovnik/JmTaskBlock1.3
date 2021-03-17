@@ -1,7 +1,18 @@
 @import './__icon.css';
+@import './__label.css';
 
 .nav-button {
-  display: block;
-  width: 40px;
-  height: 40px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #1B1C21;
+  font-family: 'TT Lakes';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+
+.nav-button:hover {
+  opacity: 0.8;
 }

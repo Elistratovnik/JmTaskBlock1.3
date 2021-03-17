@@ -1,0 +1,54 @@
+.lead__show-full-text {
+  border: none;
+  background-color: inherit;
+  align-self: flex-start;
+  cursor: pointer;
+  position: relative;
+  font-family: 'TT Lakes';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #1B1C21;
+  padding-left: 32px;
+}
+
+.lead__show-full-text:focus {
+  outline: none;
+}
+
+.lead__show-full-text:hover {
+  opacity: 0.8;
+}
+
+.lead__show-full-text:active {
+  opacity: 0.8;
+}
+
+.lead__show-full-text::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  left: 8px;
+  width: 8px;
+  height: 10px;
+  background-image: url('../../img/icon.png');
+  background-position: 0px 10px;
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+.lead__show-full-text:hover.lead__show-full-text::before {
+  animation: scroll 1s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 0px 10px;
+  }
+}
