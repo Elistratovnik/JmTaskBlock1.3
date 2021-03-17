@@ -1,0 +1,23 @@
+.lead__description {
+  margin-bottom: 13px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'TT Lakes';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #1B1C21;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (min-width: 768px) {
+  .lead__description {
+    -webkit-line-clamp: 7;
+    line-height: 20px;
+  }
+}

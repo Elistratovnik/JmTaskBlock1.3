@@ -1,0 +1,17 @@
+.icons-list__item {
+  margin-right: 16px;
+}
+
+.icons-list__item:last-child {
+  margin-right: 0;
+}
+
+@media (min-width: 1120px) {
+  .icons-list__item {
+    margin-right: 33px;
+  }
+  .icons-list__item:last-child {
+    margin-right: 0;
+  }
+}
+

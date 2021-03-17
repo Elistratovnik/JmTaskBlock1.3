@@ -1,0 +1,18 @@
+.lead__cover {
+  width: calc(100% + 32px);
+}
+
+@media (min-width: 768px) {
+  .lead__cover {
+    border-radius: 6px;
+    width: 360px;
+    flex-shrink: 0;
+  }
+}
+
+@media (min-width: 1120px) {
+  .lead__cover {
+    width: 531px;
+  }
+}
+

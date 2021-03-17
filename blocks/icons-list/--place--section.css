@@ -1,0 +1,9 @@
+.icons-list.icons-list--place--section {
+  display: none;
+}
+
+@media (min-width: 1120px) {
+  .icons-list.icons-list--place--section {
+    display: flex;
+  }
+}

@@ -1,0 +1,13 @@
+.header__nav-button {
+  margin-right: 16px;
+  flex-shrink: 0;
+  order: 0;
+}
+
+
+@media (min-width: 768px) {
+  .header__nav-button {
+    margin-right: 0;
+  }
+
+}

@@ -1,0 +1,9 @@
+@import './__item.css';
+@import './--place--section.css';
+
+.icons-list {
+  margin: 0;
+  display: flex;
+  padding: 0;
+  list-style: none;
+}

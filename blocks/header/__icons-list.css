@@ -1,0 +1,12 @@
+.header__icons-list {
+  margin: 0;
+  margin-left: auto;
+  order: 5;
+}
+
+
+@media (min-width: 768px) {
+  .header__icons-list {
+    margin-left: 0;
+  }
+}

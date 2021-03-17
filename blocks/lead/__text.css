@@ -1,0 +1,14 @@
+.lead__text {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 1120px) {
+  .lead__text {
+    margin-bottom: 20px;
+  }
+  .lead__text:last-child {
+    margin-bottom: 0;
+  }
+}
+
