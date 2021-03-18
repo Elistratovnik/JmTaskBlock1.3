@@ -2,7 +2,8 @@
 @import './--place--section.css';
 
 .icons-list {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   display: flex;
   padding: 0;
   list-style: none;
