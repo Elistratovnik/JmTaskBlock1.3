@@ -1,6 +1,7 @@
 @import './__item--active.css';
 
 .slider__item {
+  white-space: nowrap;
   font-family: 'TT Lakes';
   font-weight: 500;
   margin-right: 4px;
