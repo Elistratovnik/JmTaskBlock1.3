@@ -1,15 +1,18 @@
-.services__main-container {
+@import './__header.css';
+@import './__title.css';
+
+.main {
   padding: 24px 0;
 }
 
 @media (min-width: 768px) {
-  .services__main-container {
+  .main {
     padding: 24px 0;
   }
 }
 
 @media (min-width: 1120px) {
-  .services__main-container {
+  .main {
     padding: 43px 0;
   }
 }

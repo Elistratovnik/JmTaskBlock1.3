@@ -1,0 +1,24 @@
+.main__header {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 22px;
+}
+
+@media (min-width: 768px) {
+  .main__header {
+    margin-bottom: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (min-width: 1120px) {
+  .main__header {
+    margin-bottom: 7px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}

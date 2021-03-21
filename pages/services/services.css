@@ -4,9 +4,9 @@
 @import '../../blocks/logo/logo.css';
 @import '../../blocks/title/title.css';
 @import '../../blocks/slider/slider.css';
-@import './__title.css';
-@import './__main-container.css';
 @import '../../blocks/lead/lead.css';
+@import '../../blocks/main/main.css';
+
 
 * {
   box-sizing: border-box;
